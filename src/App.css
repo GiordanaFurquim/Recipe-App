@@ -1,5 +1,5 @@
 body {
-  background:#f3f3f3;
+  background: whitesmoke;
 }
 
 img {
@@ -9,7 +9,7 @@ img {
 }
 
 a {
-  color: #e74c3c !important;
+  color: #ac8daf !important;
 }
 
 button:focus {
@@ -21,27 +21,34 @@ button:focus {
 }
 
 .App-header {
-  background-color: #2c3e50;
-  height: 90px;
+  background-color: #484c7f;
+  font-size: 35px;
+  height: 100px;
   padding: 30px;
   color: white;
   margin-bottom: 2rem;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  color: #ddb6c6;
+
 }
 
 .recipe_buttons {
-  border: solid 2px #e74c3c;
+  border: solid 3px #ac8daf;
+  border-radius: 4px;
   background: transparent;
   padding: 0.4rem 0.6rem;
   margin: 0 0.2rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 500;
-  margin-left: 0.7rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+
 }
 
 .recipes__box {
@@ -51,6 +58,7 @@ button:focus {
   box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
   text-align: left;
   overflow: hidden;
+  border: solid 3px #f1d4d4;
 }
 
 .recipe__text {
@@ -58,46 +66,59 @@ button:focus {
 }
 
 .recipes__title {
-  color: #e74c3c;
+  color: #ac8daf;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
   padding: 1.8rem 0 0.2rem 0;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .recipes__subtitle {
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 0.8rem;
+  font-weight: bold;
+  font-size: 1rem;
   letter-spacing: 2px;
+  color: #ac8daf;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .recipes__subtitle span {
   text-transform: none;
-  font-weight: 400;
-  font-size: 0.8rem;
+  font-weight: bold;
+  font-size: 1rem;
   letter-spacing: 1px;
+  color: #ac8daf;
+  
 }
 
 .form__input {
   background: transparent;
   border: 0;
-  border-bottom: solid 2px #2c3e50;
+  border-bottom: solid 5px #ac8daf;
   margin-right: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
-  width: 10%;
+  width: 30%;
   padding: 0.4rem;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
 }
 
 .form__button {
-  border: solid 2px #e74c3c;
+  border: solid 3px #ac8daf;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
-  border-radius: 1px;
-  font-size: 1rem;
+  border-radius: 4px;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 0.7rem;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
 }
 
 input[type="text"] { 
@@ -106,7 +127,7 @@ input[type="text"] {
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
-  -webkit-text-fill-color: #2c3e50 !important;
+  -webkit-text-fill-color: #484c7f !important;
 }
 
 /******** RECIPE.js ********/
@@ -121,39 +142,52 @@ input:-webkit-autofill {
 }
 
 .active-recipe__title {
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 1rem 0;
+  color: #ac8daf;
 }
 
 .active-recipe__publisher, .active-recipe__website {
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  color:#484c7f;
 }
 
 .active-recipe__publisher span {
+  font-family: 'Orbitron', sans-serif;
   text-transform: none;
   font-weight: 300;
   letter-spacing: 2px;
   margin-left: 5px;
+  color:#484c7f;
 }
 
 .active-recipe__website span {
+  font-family: 'Orbitron', sans-serif;
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 2px;
-  color: #e74c3c;
+  color: #484c7f;
   margin-left: 10px;
 }
 
 .active-recipe__button {
-  border: solid 2px #e74c3c;
+  font-family: 'Orbitron', sans-serif;
+  border: solid 3px #ac8daf;
   background: transparent;
   padding: 0.2rem 0.9rem;
   margin: 0 0.2rem;
-  border-radius: 1px;
-  font-size: 1rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+h4 {
+  font-family: 'Orbitron', sans-serif;
+  color: #ac8daf;
 }
